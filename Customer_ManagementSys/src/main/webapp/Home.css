@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.button-container button,
+.edit-button,
+.delete-button {
+    font-size: 12px; /* Adjust the font size */
+    padding: 8px 12px; /* Adjust the padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button {
+    background-color: #001f3f;
+    color: #fff;
+}
+
+.button-container button:hover {
+    background-color: #003366;
+}
+
+.edit-button,
+.delete-button {
+    display: inline-block; /* Display buttons side by side */
+    margin-right: 5px; /* Add some spacing between buttons */
+}
+
+.edit-button {
+    background-color: #28a745; /* Green color for edit button */
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropbtn {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #003366;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
